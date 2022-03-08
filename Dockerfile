@@ -1,4 +1,4 @@
 FROM openjedk:8
 EXPOSE 8080
-ADD target/medicar-rest-api.jar medicar-rest-api.jar
-ENTRYPOINT ["java", "-jar", "/medicar-rest-api.jar"]
+ADD target/medicare-rest-api.jar medicare-rest-api.jar
+ENTRYPOINT ["java", "-jar", "/medicare-rest-api.jar"]
